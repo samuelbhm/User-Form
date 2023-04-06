@@ -1,0 +1,79 @@
+body {
+  font-family: Roboto, sans-serif;
+  background-image: url('https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #3f7b94;
+}
+
+hr {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+p {
+  text-align: center;
+  text-shadow: 10px 5px 10px rgba(0, 0, 0, 0.25);
+  font-weight: 700;
+  font-size: 15px;
+}
+
+h1 {
+text-align: center  ;
+text-shadow: 10px 5px 10px rgba(0, 0, 0, 0.25);
+font-size: 50px;
+}
+
+.container {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ margin-top: 12%;
+}
+
+label {
+  font-weight: 900;
+  font-size: 15px;
+}
+
+form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  width: 50%;
+  border: none;
+  border-radius: 1.5rem;
+}
+
+
+
+input[type=email], input[type=password], input[type=text] {
+  display: flex;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px 12px;
+  border: 1px solid #ccc;
+  border-radius: 1.5rem;
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+button[type=submit], button[type=button]  {
+  background-color: #457991;
+  color: white;
+  padding: 14px 20px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  border: none;
+  border-radius: 1.5rem;
+  box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.25);
+}
+
+button[type=submit]:hover, button[type=button]:hover {
+  opacity: 0.8;
+}
